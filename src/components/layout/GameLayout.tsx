@@ -1,17 +1,12 @@
 import React from 'react';
 
-const GameLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-    return (
-        <div className="game-layout">
-            <header>
-                <h1>MultiRoad</h1>
-            </header>
-            <main>{children}</main>
-            <footer>
-                <p>© 2023 MultiRoad Racing Game</p>
-            </footer>
-        </div>
-    );
+// Make sure this doesn't have another Canvas
+interface GameLayoutProps {
+  children: React.ReactNode;
+}
+
+const GameLayout = ({ children }: GameLayoutProps) => {
+  return <div className="game-layout">{children}</div>;
 };
 
 export default GameLayout;
