@@ -1,6 +1,9 @@
 # MultiRoad
 A 3D Multiplayer Racing Game
 
+Nirmay : 
+ My plan tbd
+
 To: Nirmay :
 
  rm -rf node_modules package-lock.json
