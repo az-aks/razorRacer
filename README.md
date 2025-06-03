@@ -1,6 +1,12 @@
 # MultiRoad
 A 3D Multiplayer Racing Game
 
+To: Nirmay :
+
+ rm -rf node_modules package-lock.json
+ npm install
+
+
 ## Overview
 MultiRoad is an immersive multiplayer racing game built with Next.js, React, and Three.js. The game features a modular racetrack system, allowing for dynamic track creation and customization. Players can compete in real-time using Socket.IO for networking and @react-three/rapier for physics.
 
