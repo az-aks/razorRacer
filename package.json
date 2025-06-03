@@ -1,0 +1,36 @@
+{
+  "name": "multiroad",
+  "version": "1.0.0",
+  "description": "A 3D multiplayer racing game built with Next.js, React, Three.js, and Socket.IO.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "three": "latest",
+    "@react-three/fiber": "latest",
+    "@react-three/rapier": "latest",
+    "socket.io": "latest",
+    "socket.io-client": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest",
+    "@types/react": "latest",
+    "@types/node": "latest"
+  },
+  "keywords": [
+    "multiplayer",
+    "racing",
+    "game",
+    "3D",
+    "nextjs",
+    "react"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
